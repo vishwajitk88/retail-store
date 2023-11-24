@@ -1,0 +1,41 @@
+.ProductDetails {
+  width: 43%;
+}
+.ProductDetails h2 {
+  margin: 0 0 12px;
+  font-size: 2rem;
+  color: #102a42;
+  text-transform: capitalize;
+  letter-spacing: 1.2px;
+}
+.ProductDetails h5 {
+  font-size: 1.25rem;
+  color: var(--main-color);
+  margin: 0 0 12px;
+}
+.description {
+  line-height: 1.5;
+  margin: 0 0 15px;
+  max-width: 45em;
+  color: #324d67;
+}
+.info {
+  display: flex;
+
+  color: #324d67;
+  margin: 0 0 10px;
+  text-transform: capitalize;
+  font-size: 13px;
+}
+.info span {
+  width: 125px;
+}
+.ProductDetails hr {
+  border: none;
+  border-bottom: 1px solid #bcccdc;
+}
+@media (max-width: 991px) {
+  .ProductDetails {
+    width: 100%;
+  }
+}

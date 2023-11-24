@@ -1,0 +1,46 @@
+.sort {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto;
+  grid-column-gap: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.btnContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 0.5rem;
+}
+.btnContainer button {
+  background: transparent;
+  border: 1px solid #222;
+  color: #222;
+  width: 1.5rem;
+  border-radius: 0.25rem;
+  height: 1.5rem;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+}
+.btnContainer button.active {
+  background: #222;
+  color: #fff;
+}
+.selectsort {
+  background: #f1f5f8;
+  border-radius: 0.25rem;
+  border-color: transparent;
+  padding: 0.25rem;
+}
+@media (max-width: 743px) {
+  .sort {
+    font-size: 0.8rem;
+    grid-column-gap: 10px;
+  }
+}

@@ -1,0 +1,25 @@
+.colors {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.colors button {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: none;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.colors button svg {
+  width: 17px;
+  height: 20px;
+  color: white;
+}
+.colors span {
+  width: 125px;
+}
+.colors button.active {
+  opacity: 1;
+}

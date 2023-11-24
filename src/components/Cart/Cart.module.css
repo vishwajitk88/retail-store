@@ -1,0 +1,38 @@
+.cart {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.cart .shop {
+  position: relative;
+  margin-right: 20px;
+}
+.cart .shop a {
+  color: inherit;
+}
+.cart .shop .mount {
+  padding: 1px 7px;
+  position: absolute;
+  top: -13px;
+  display: inline-block;
+  right: -9px;
+  background: var(--main-color);
+  color: white;
+  border-radius: 50%;
+}
+.cart button {
+  color: black;
+  width: 4rem;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  text-transform: capitalize;
+}
+@media (max-width: 991px) {
+  .cart {
+    display: none;
+  }
+}

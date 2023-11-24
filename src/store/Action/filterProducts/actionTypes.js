@@ -1,0 +1,9 @@
+const GRID = "GRID";
+const LIST = "LIST";
+const PRICE_LOWEST = "PRICE_LOWEST";
+const PRICE_HIGHEST = "PRICE_HIGHEST";
+const NAME_A_Z = "NAME_A-Z";
+const NAME_Z_A= "NAME_Z-A";
+
+
+export { GRID, LIST,PRICE_LOWEST,PRICE_HIGHEST,NAME_A_Z,NAME_Z_A};

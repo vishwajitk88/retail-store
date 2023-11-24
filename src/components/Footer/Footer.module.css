@@ -1,0 +1,27 @@
+.Footer {
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background: #222;
+  text-align: center;
+  color: #fff;
+}
+.Footer h5 {
+  color: #fff;
+  margin: 0.1rem;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.25;
+}
+.Footer span {
+  color: var(--main-color);
+}
+@media (min-width: 776px) {
+  .Footer {
+    flex-direction: row;
+  }
+}

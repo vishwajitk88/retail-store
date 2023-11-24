@@ -1,0 +1,35 @@
+.totalSection {
+  margin: 3rem 0 0 auto;
+  width: fit-content;
+}
+.totalSection a {
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 700;
+}
+.articleSection {
+  border: 1px solid #bcccdc;
+  border-radius: 0.25rem;
+  padding: 1.5rem 3rem;
+}
+.articleSection h5,
+.articleSection p {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+.articleSection h5 {
+  margin: 0 0 12px;
+}
+.articleSection p {
+  margin: 0 0 20px;
+}
+.articleSection h4 {
+  margin: 2rem 0 12px;
+}
+
+@media (max-width: 620px) {
+  .totalSection {
+    margin-right: auto;
+  }
+}

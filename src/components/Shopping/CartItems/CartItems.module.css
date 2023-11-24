@@ -1,0 +1,120 @@
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr auto;
+  -webkit-box-align: center;
+  align-items: center;
+  grid-template-rows: 75px;
+  margin: 2rem 0;
+  justify-items: center;
+}
+.title {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 100px 200px;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: left;
+  margin: 2rem 0;
+}
+.title img {
+  width: 100%;
+  height: 75px;
+  display: block;
+  border-radius: 0.25rem;
+  object-fit: cover;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+}
+.title span {
+  background: red;
+  display: inherit;
+  display: inline;
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-left: 5px;
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+}
+.color {
+  display: flex;
+  align-items: center;
+  color: #617d98;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  letter-spacing: 0.1rem;
+}
+.price {
+  display: block;
+  font-size: 1rem;
+  color: var(--main-color);
+  font-weight: 400;
+}
+.subtotal {
+  display: block;
+  margin-bottom: 0px;
+  color: #617d98;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.removeBtn {
+  color: #fff;
+  border: transparent;
+  letter-spacing: 0.1rem;
+  background: #bb2525;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+}
+.removeBtn svg {
+  height: 1em;
+  width: 1em;
+}
+.small {
+  display: none;
+}
+@media (max-width: 700px) {
+  .wrap {
+    display: grid;
+    grid-template-columns: 315px auto auto;
+    grid-template-rows: 75px;
+    gap: 3rem 1rem;
+    place-items: center;
+    margin-bottom: 3rem;
+    -webkit-box-align: center;
+  }
+  .price {
+    display: none;
+  }
+  .subtotal {
+    display: none;
+  }
+  .small {
+    display: block;
+    font-size: 1rem;
+    color: var(--main-color);
+    font-weight: 400;
+  }
+}

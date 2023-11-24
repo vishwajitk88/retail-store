@@ -1,0 +1,13 @@
+.star {
+  display: flex;
+  margin: 0 0 8px;
+}
+.star span svg {
+  width: 16px;
+  height: 16px;
+  color: rgb(255, 185, 0);
+}
+.reviews {
+  margin: 0 0 0 0.5rem;
+  color: #324d67;
+}
